@@ -14,6 +14,5 @@ print(Missing_values)
 Duplicate_Values = sales_data.duplicated().sum()
 print(Duplicate_Values)
 
+print(sales_data.columns)
 #Graph
-sns.displot([0,1,2,3,4,5,6,7,8,9])
-plt.show()  
